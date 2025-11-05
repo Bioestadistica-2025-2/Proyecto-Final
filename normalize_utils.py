@@ -1,21 +1,3 @@
-"""
-normalize_utils.py
-
-Helper utilities to normalize DataFrame columns using log, Box-Cox, or Yeo-Johnson,
-optionally standardize (z-score), and invert the transformation later.
-Includes a small normality report and a simple histogram plot helper.
-
-Dependencies:
-- numpy, pandas, scipy, matplotlib
-- (optional) pingouin for normality test; falls back to scipy.stats.shapiro
-
-Usage:
-    from normalize_utils import transform_df, invert_df, normality_report, plot_hist
-
-    df_t, params = transform_df(df, columns=None, method="yeojohnson", standardize=True, na_action="ignore")
-    df_back = invert_df(df_t, params)
-"""
-
 from typing import Dict, Any, List, Tuple
 
 import numpy as np
