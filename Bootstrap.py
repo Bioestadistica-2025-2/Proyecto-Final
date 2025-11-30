@@ -4,6 +4,7 @@ import pandas as pd
 import statsmodels.formula.api as smf
 from statsmodels.stats.anova import anova_lm
 from statsmodels.multivariate.manova import MANOVA
+import matplotlib.pyplot as plt
 
 def build_cell_samples(
     df: pd.DataFrame,
