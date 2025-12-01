@@ -70,51 +70,51 @@ var simplemaps_usmap_mapdata={
     location_image_url: ""
   },
   state_specific: {
-    // Colores por cluster: Sanos (#2ca02c - verde), Intermedios (#ff7f0e - naranja), Enfermos (#d62728 - rojo)
+    // Colores por MMSE: Sin deterioro (#2ca02c), Posible deterioro (#7bc043), Deterioro leve (#ff7f0e), Deterioro moderado (#d45500), Demencia severa (#d62728)
     HI: {
       name: "Hawaii",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     AK: {
       name: "Alaska",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     FL: {
       name: "Florida",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     NH: {
       name: "New Hampshire",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     VT: {
       name: "Vermont",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     ME: {
       name: "Maine",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     RI: {
       name: "Rhode Island",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     NY: {
       name: "New York",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     PA: {
       name: "Pennsylvania",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     NJ: {
       name: "New Jersey"
@@ -122,52 +122,52 @@ var simplemaps_usmap_mapdata={
     DE: {
       name: "Delaware",
       color: "#d62728",
-      description: "Cluster: Enfermos"
+      description: "MMSE: Demencia severa"
     },
     MD: {
       name: "Maryland",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     VA: {
       name: "Virginia",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     WV: {
       name: "West Virginia",
       color: "#d62728",
-      description: "Cluster: Enfermos"
+      description: "MMSE: Demencia severa"
     },
     OH: {
       name: "Ohio",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     IN: {
       name: "Indiana",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     IL: {
       name: "Illinois",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     CT: {
       name: "Connecticut",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     WI: {
       name: "Wisconsin",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     NC: {
       name: "North Carolina",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     DC: {
       name: "District of Columbia"
@@ -175,152 +175,152 @@ var simplemaps_usmap_mapdata={
     MA: {
       name: "Massachusetts",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     TN: {
       name: "Tennessee",
       color: "#d62728",
-      description: "Cluster: Enfermos"
+      description: "MMSE: Demencia severa"
     },
     AR: {
       name: "Arkansas",
       color: "#d62728",
-      description: "Cluster: Enfermos"
+      description: "MMSE: Demencia severa"
     },
     MO: {
       name: "Missouri",
       color: "#d62728",
-      description: "Cluster: Enfermos"
+      description: "MMSE: Demencia severa"
     },
     GA: {
       name: "Georgia",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     SC: {
       name: "South Carolina",
       color: "#d62728",
-      description: "Cluster: Enfermos"
+      description: "MMSE: Demencia severa"
     },
     KY: {
       name: "Kentucky",
-      color: "#d62728",
-      description: "Cluster: Enfermos"
+      color: "#d45500",
+      description: "MMSE: Deterioro moderado"
     },
     AL: {
       name: "Alabama",
       color: "#d62728",
-      description: "Cluster: Enfermos"
+      description: "MMSE: Demencia severa"
     },
     LA: {
       name: "Louisiana",
-      color: "#d62728",
-      description: "Cluster: Enfermos"
+      color: "#d45500",
+      description: "MMSE: Deterioro moderado"
     },
     MS: {
       name: "Mississippi",
       color: "#d62728",
-      description: "Cluster: Enfermos"
+      description: "MMSE: Demencia severa"
     },
     IA: {
       name: "Iowa",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     MN: {
       name: "Minnesota",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     OK: {
       name: "Oklahoma",
       color: "#d62728",
-      description: "Cluster: Enfermos"
+      description: "MMSE: Demencia severa"
     },
     TX: {
       name: "Texas",
-      color: "#d62728",
-      description: "Cluster: Enfermos"
+      color: "#d45500",
+      description: "MMSE: Deterioro moderado"
     },
     NM: {
       name: "New Mexico",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     KS: {
       name: "Kansas",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     NE: {
       name: "Nebraska",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     SD: {
       name: "South Dakota",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     ND: {
       name: "North Dakota",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     WY: {
       name: "Wyoming",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     MT: {
       name: "Montana",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     CO: {
       name: "Colorado",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     UT: {
       name: "Utah",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     AZ: {
       name: "Arizona",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     NV: {
       name: "Nevada",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     OR: {
       name: "Oregon",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     WA: {
       name: "Washington",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     CA: {
       name: "California",
       color: "#2ca02c",
-      description: "Cluster: Sanos"
+      description: "MMSE: Sin deterioro"
     },
     MI: {
       name: "Michigan",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     ID: {
       name: "Idaho",
       color: "#ff7f0e",
-      description: "Cluster: Intermedios"
+      description: "MMSE: Deterioro leve"
     },
     GU: {
       name: "Guam",
