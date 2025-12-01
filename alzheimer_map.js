@@ -70,7 +70,7 @@ var simplemaps_usmap_mapdata={
     location_image_url: ""
   },
   state_specific: {
-    // Colores por MMSE: Sin deterioro (#2ca02c), Posible deterioro (#7bc043), Deterioro leve (#ff7f0e), Deterioro moderado (#d45500), Demencia severa (#d62728)
+    // Colores por MMSE (gradiente de sano a enfermo): Sin deterioro (#2ca02c verde), Posible deterioro (#a8d08d verde claro), Deterioro leve (#ffd966 amarillo), Deterioro moderado (#f4a460 naranja), Demencia severa (#d62728 rojo)
     HI: {
       name: "Hawaii",
       color: "#2ca02c",
@@ -83,12 +83,12 @@ var simplemaps_usmap_mapdata={
     },
     FL: {
       name: "Florida",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     NH: {
       name: "New Hampshire",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     VT: {
@@ -98,7 +98,7 @@ var simplemaps_usmap_mapdata={
     },
     ME: {
       name: "Maine",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     RI: {
@@ -131,7 +131,7 @@ var simplemaps_usmap_mapdata={
     },
     VA: {
       name: "Virginia",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     WV: {
@@ -146,12 +146,12 @@ var simplemaps_usmap_mapdata={
     },
     IN: {
       name: "Indiana",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     IL: {
       name: "Illinois",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     CT: {
@@ -161,12 +161,12 @@ var simplemaps_usmap_mapdata={
     },
     WI: {
       name: "Wisconsin",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     NC: {
       name: "North Carolina",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     DC: {
@@ -194,7 +194,7 @@ var simplemaps_usmap_mapdata={
     },
     GA: {
       name: "Georgia",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     SC: {
@@ -204,7 +204,7 @@ var simplemaps_usmap_mapdata={
     },
     KY: {
       name: "Kentucky",
-      color: "#d45500",
+      color: "#f4a460",
       description: "MMSE: Deterioro moderado"
     },
     AL: {
@@ -214,7 +214,7 @@ var simplemaps_usmap_mapdata={
     },
     LA: {
       name: "Louisiana",
-      color: "#d45500",
+      color: "#f4a460",
       description: "MMSE: Deterioro moderado"
     },
     MS: {
@@ -224,7 +224,7 @@ var simplemaps_usmap_mapdata={
     },
     IA: {
       name: "Iowa",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     MN: {
@@ -239,22 +239,22 @@ var simplemaps_usmap_mapdata={
     },
     TX: {
       name: "Texas",
-      color: "#d45500",
+      color: "#f4a460",
       description: "MMSE: Deterioro moderado"
     },
     NM: {
       name: "New Mexico",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     KS: {
       name: "Kansas",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     NE: {
       name: "Nebraska",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     SD: {
@@ -289,12 +289,12 @@ var simplemaps_usmap_mapdata={
     },
     AZ: {
       name: "Arizona",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     NV: {
       name: "Nevada",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     OR: {
@@ -314,12 +314,12 @@ var simplemaps_usmap_mapdata={
     },
     MI: {
       name: "Michigan",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     ID: {
       name: "Idaho",
-      color: "#ff7f0e",
+      color: "#ffd966",
       description: "MMSE: Deterioro leve"
     },
     GU: {
